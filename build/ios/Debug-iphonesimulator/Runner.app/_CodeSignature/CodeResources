@@ -110,7 +110,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		X0HJflRjcUwYL4tSfAiqwO/PYrU=
+		g6xOaXoGtAHt/YJ27Ujgkm3slXs=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		OAxPrVxgoGPtRdWM9IT/8F/Mo1U=
+		1FFYbaM5MQw9PKl5AuUz+tsZPEI=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		oxLdhVnU40ymEAGyFm09u4B1PdQ=
+		GUoy/N5mihRK1aVcwIQiJy3o8Ts=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		/Ht46XU1C7naYqAYnHVaJGPxQNw=
+		924KjcjTzMGpY3UE43EMJFnLDY4=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/img/2%20-%20c%C3%B3pia.png</key>
 		<data>
@@ -139,6 +139,14 @@
 		<key>Frameworks/App.framework/flutter_assets/assets/img/icon_foreground.png</key>
 		<data>
 		LQF2LsuUuT25o7DeWEWWfr0q02Q=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/img/icons/backward.svg</key>
+		<data>
+		pcp5tGfNrsoPFB8H6zRRvCw2ijo=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/img/icons/forward.svg</key>
+		<data>
+		oE2iljTKvoexRsDx4wFBz6LB0Y8=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/img/yeva_logo_icon_original.png</key>
 		<data>
@@ -158,7 +166,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		NKY5BHj1G9LNIFQNjlyYvBlTMcg=
+		SDrKSeqz++Ml/2e6v53edENe2pE=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -170,7 +178,7 @@
 		</data>
 		<key>Frameworks/Flutter.framework/Flutter</key>
 		<data>
-		JeXHP8/WyN6c8Wqn0Lm3uHCvuvY=
+		ie1Eql8VEFihbHT1lOGSf8Wwezo=
 		</data>
 		<key>Frameworks/Flutter.framework/Headers/Flutter.h</key>
 		<data>
@@ -449,7 +457,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dSGDuFv5/YIJUfBPIlRnWmawnRoZF4U58HbQBUA8Qu8=
+			k7ORaW/yzcVofwBsL0p1V3KzlbZSXGfvMF7ji57wGvA=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -463,14 +471,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dnO2Nvta4ZOY5+ucudCxypboRE1FVHcrrspKs4ELooE=
+			dp7vgtCAaFKiA/+oaDeViQN26Tfr8/9hJL/8Kxjz5mo=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			88h0rEh/g5aDldqY9wAC0HJOz0dZw7FT78eRi11Levg=
+			YG5jmd7s4+RWUylIUrkyJkjWl/BZSh2/agfbllrIncM=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -484,7 +492,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CRI9WHqEiFjwh0KeUW33Nh2w0xF0wQR7ePY1UuovQ/Y=
+			rSUCWytd5uPkkIlsvJ6UaUrR2tcXkBw7rhFJv6b+PfQ=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/img/2%20-%20c%C3%B3pia.png</key>
@@ -499,6 +507,20 @@
 			<key>hash2</key>
 			<data>
 			EdPK22uliMKYUuzZzBjcSk85Zd9ASTvtIUjWGwyrlMw=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/img/icons/backward.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			f7McjYyqTxzPMALjjOnHqiYMjekpnMZQjjQkQ62YYzM=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/img/icons/forward.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jHTnKf0VQqCly/rXf277/Z7jxsuR0cE7/r0QUfCLhMo=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/img/yeva_logo_icon_original.png</key>
@@ -533,7 +555,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ijDSmMr/GU1FyDuXEa610yDerRRLY0EyOGf0AVkotLg=
+			mJNFHRsxsZKD40t7ZZD5E8iugK15zsoePQ3wogwouy8=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -554,7 +576,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			I5yAJLRD2vLIWn1QiRIreUxGc4AJzt0jjRLlEB6htWM=
+			VvpcpDtfdKzfIjnBbf3Ry+1cdBqtM5/ilyaHc2jio7g=
 			</data>
 		</dict>
 		<key>Frameworks/Flutter.framework/Headers/Flutter.h</key>

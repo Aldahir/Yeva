@@ -86,6 +86,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_svg",
+      "rootUri": "file:///Users/fantastico/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_svg-1.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Users/fantastico/Downloads/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -136,6 +142,18 @@
     {
       "name": "path",
       "rootUri": "file:///Users/fantastico/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path_drawing",
+      "rootUri": "file:///Users/fantastico/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/path_drawing-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path_parsing",
+      "rootUri": "file:///Users/fantastico/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/path_parsing-1.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -218,7 +236,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2022-04-25T14:02:42.492359Z",
+  "generated": "2022-05-06T11:06:22.343111Z",
   "generator": "pub",
   "generatorVersion": "2.16.2"
 }

@@ -54,7 +54,14 @@ class _UserLoginState extends State<UserLogin> {
 
   _login(context, user, senha) {
     if (_username.text.isEmpty || _password.text.isEmpty) {
-      print("Campos vazios. Por favor preencha todos os campos");
+      return ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          duration: Duration(seconds: 7),
+          backgroundColor: Colors.redAccent,
+          content: Text("Campos vazios. Por favor preencha todos os campos",
+              style: TextStyle(color: Colors.white)),
+        ),
+      );
     }
 
     //_showProgress('Entrar');
@@ -62,11 +69,19 @@ class _UserLoginState extends State<UserLogin> {
     YevaController.loginUser(user, senha).then((result) {
       Map<String, dynamic> data = jsonDecode(result);
 
+      print("login >>>>>>>>>>>>>>> ${data}");
       if (data['estado'] == '1') {
-        //print("login >>>>>>>>>>>>>>> ${data['id']}");
         _loadUserData(context, int.parse(data['id']));
       } else {
         _clearInputs();
+        return ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            duration: Duration(seconds: 7),
+            backgroundColor: Colors.redAccent,
+            content: Text("Senha ou usuario errada. Tente novamente!",
+                style: TextStyle(color: Colors.white)),
+          ),
+        );
       }
     });
   }
@@ -170,16 +185,19 @@ class _UserLoginState extends State<UserLogin> {
             const SizedBox(
               height: 10.0,
             ),
-            TextButton(onPressed: (() => {
-              Navigator.push(
-                context, 
-                MaterialPageRoute(
-                  builder: (context)=> EsqueciSenha(),)
-                ),
-            }), child: const Text(
-              "Esqueceu sua Senha",
-              style: TextStyle(fontWeight: FontWeight.w300, color: Colors.black ),
-            ))
+            TextButton(
+                onPressed: (() => {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => EsqueciSenha(),
+                          )),
+                    }),
+                child: const Text(
+                  "Esqueceu sua Senha",
+                  style: TextStyle(
+                      fontWeight: FontWeight.w300, color: Colors.black),
+                ))
           ]),
     );
   }

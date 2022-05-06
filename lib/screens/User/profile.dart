@@ -10,7 +10,7 @@ class Profile extends StatefulWidget {
 }
 
 class _ProfileState extends State<Profile> {
-  late int _id = 0;
+  final int _id = 0;
 
   @override
   void initState() {

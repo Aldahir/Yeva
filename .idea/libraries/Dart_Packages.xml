@@ -247,17 +247,9 @@
             </list>
           </value>
         </entry>
-        <entry key="yeva">
-          <value>
-            <list>
-              <option value="$PROJECT_DIR$/../lib" />
-            </list>
-          </value>
-        </entry>
       </option>
     </properties>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../lib" />
       <root url="file://$USER_HOME$/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/archive-3.3.0/lib" />
       <root url="file://$USER_HOME$/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/args-2.3.0/lib" />
       <root url="file://$USER_HOME$/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.8.2/lib" />

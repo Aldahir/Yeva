@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		oxLdhVnU40ymEAGyFm09u4B1PdQ=
+		GUoy/N5mihRK1aVcwIQiJy3o8Ts=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		/Ht46XU1C7naYqAYnHVaJGPxQNw=
+		924KjcjTzMGpY3UE43EMJFnLDY4=
 		</data>
 		<key>flutter_assets/assets/img/2%20-%20c%C3%B3pia.png</key>
 		<data>
@@ -27,6 +27,14 @@
 		<key>flutter_assets/assets/img/icon_foreground.png</key>
 		<data>
 		LQF2LsuUuT25o7DeWEWWfr0q02Q=
+		</data>
+		<key>flutter_assets/assets/img/icons/backward.svg</key>
+		<data>
+		pcp5tGfNrsoPFB8H6zRRvCw2ijo=
+		</data>
+		<key>flutter_assets/assets/img/icons/forward.svg</key>
+		<data>
+		oE2iljTKvoexRsDx4wFBz6LB0Y8=
 		</data>
 		<key>flutter_assets/assets/img/yeva_logo_icon_original.png</key>
 		<data>
@@ -46,7 +54,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		NKY5BHj1G9LNIFQNjlyYvBlTMcg=
+		SDrKSeqz++Ml/2e6v53edENe2pE=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -63,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			88h0rEh/g5aDldqY9wAC0HJOz0dZw7FT78eRi11Levg=
+			YG5jmd7s4+RWUylIUrkyJkjWl/BZSh2/agfbllrIncM=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -77,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CRI9WHqEiFjwh0KeUW33Nh2w0xF0wQR7ePY1UuovQ/Y=
+			rSUCWytd5uPkkIlsvJ6UaUrR2tcXkBw7rhFJv6b+PfQ=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/img/2%20-%20c%C3%B3pia.png</key>
@@ -92,6 +100,20 @@
 			<key>hash2</key>
 			<data>
 			EdPK22uliMKYUuzZzBjcSk85Zd9ASTvtIUjWGwyrlMw=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/img/icons/backward.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			f7McjYyqTxzPMALjjOnHqiYMjekpnMZQjjQkQ62YYzM=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/img/icons/forward.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jHTnKf0VQqCly/rXf277/Z7jxsuR0cE7/r0QUfCLhMo=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/img/yeva_logo_icon_original.png</key>
@@ -126,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ijDSmMr/GU1FyDuXEa610yDerRRLY0EyOGf0AVkotLg=
+			mJNFHRsxsZKD40t7ZZD5E8iugK15zsoePQ3wogwouy8=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

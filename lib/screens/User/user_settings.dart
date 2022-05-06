@@ -7,7 +7,7 @@ class UserSettings extends StatefulWidget {
 }
 
 class _UserSettingsState extends State<UserSettings> {
-  double _onChanged = 0;
+  bool _onChanged = false;
 
   @override
   Widget build(BuildContext context) {
@@ -51,17 +51,10 @@ class _UserSettingsState extends State<UserSettings> {
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
                           const Text("Menu de definições"),
-                          Slider(
-                              thumbColor: const Color(0xff26a64d),
+                          Switch(
                               activeColor: const Color(0xff26a64d),
-                              inactiveColor:
-                                  const Color.fromARGB(255, 101, 231, 140),
                               value: _onChanged,
-                              label: _onChanged.round().toString(),
-                              max: 1,
-                              min: 0,
-                              divisions: 1,
-                              onChanged: (double v) => {
+                              onChanged: (v) => {
                                     setState(() {
                                       _onChanged = v;
                                     })

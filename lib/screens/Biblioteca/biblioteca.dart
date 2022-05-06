@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:yeva/screens/home.dart';
 import 'package:yeva/screens/User/user_settings.dart';
 
 class Biblioteca extends StatefulWidget {
@@ -237,11 +238,64 @@ class BibliotecaState extends State<Biblioteca> {
             const Center(
               child: Text("data"),
             ),
-            const Center(
-              child: Text("Favorito"),
+            Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  const Text(
+                    "Nenhum livros nos seus favoritos.\n Adicione um agora mesmo",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(color: Colors.grey),
+                  ),
+                  TextButton(
+                    onPressed: (() => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const Home(),
+                        ))),
+                    child: const Text(
+                      "Toque aqui para descobrir novos audiobooks",
+                      style: TextStyle(
+                          color: Colors.grey, fontWeight: FontWeight.w600),
+                    ),
+                    style: ButtonStyle(
+                      padding: MaterialStateProperty.all<EdgeInsetsGeometry>(
+                        const EdgeInsets.symmetric(vertical: 10.0),
+                      ),
+                    ),
+                  )
+                ],
+              ),
             ),
-            const Center(
-              child: Text("data"),
+            Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  const Text(
+                    "Voce nao comentou nenhum livro ainda",
+                    style: TextStyle(color: Colors.grey),
+                  ),
+                  TextButton(
+                    onPressed: (() => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const Home(),
+                        ))),
+                    child: const Text(
+                      "Toque aqui para descobrir novos artigos",
+                      style: TextStyle(
+                          color: Colors.grey, fontWeight: FontWeight.w600),
+                    ),
+                    style: ButtonStyle(
+                      padding: MaterialStateProperty.all<EdgeInsetsGeometry>(
+                        const EdgeInsets.symmetric(vertical: 10.0),
+                      ),
+                    ),
+                  )
+                ],
+              ),
             ),
           ])));
 }
